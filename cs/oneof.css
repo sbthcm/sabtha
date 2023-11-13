@@ -1,0 +1,271 @@
+  html{
+    position: relative;
+  }
+   
+  .inputboxleft {
+	text-align:left;
+	direction:ltr;
+  }
+  
+  .nopadding {
+   	padding: 0 !important;
+   	margin: 0 !important;
+  }  
+  
+  hr { margin-top: 5px;margin-bottom: 10px; }
+  
+  .smr0pad {
+	  	  padding-right: auto;
+   }	   
+  
+  @media(max-width:767px)
+  {
+  }
+
+  @media(min-width:768px)
+  {
+	  .sm0pad {
+	  	  padding-left: 0;
+	  	  padding-right: 0 ;
+	   }
+  }
+  
+  @media(max-width:991px)
+  {
+	  .smr0pad {
+	  	  padding-right: 0;
+	   }	   
+  }  
+  
+  @media(min-width:992px)
+  {
+	  .md0pad {
+	  	  padding-left: 0;
+	   }
+  }
+  
+  .g0pad { padding: 0;}
+  .gr0pad { padding-right: 0; }
+  .gl0pad { padding-left: 0; }  
+  
+  .btm10 {margin-bottom: 10px ;}
+    
+
+/********************/  
+  
+	
+	.misite {
+	}	
+	.misite > a:link , .misite > b > a:link, .misite > a:visited , .misite > b > a:visited {	
+		color:#034381 ;		
+	}
+	
+	.toolbox {
+	 	 margin-right: 203px ;
+	 	 margin-left : 10px ;
+	 	 margin-top : 10px ;
+	 	 min-height: 40px;
+	 	  
+	}
+	
+-------------------------
+ /* col-content and side */
+ 
+  .col-content , .col-side {
+    	float: right;
+    	position: relative;
+    	min-height: 1px;
+  }
+  
+  .col-content {
+  		left: 0px;  		
+  }
+  .col-side {
+  		right: auto;
+  }  
+      	  
+  @media(max-width:767px)
+  {
+	.gl0pad { padding-right: 0px; }
+    .col-content { right: 0 ; width: 100%; }
+    .col-side { left: 0 ; width: 100%; }    	     	   	   
+  }
+
+  @media(min-width:768px)  
+  {
+    .col-content { right: 40% ; width: 60%; }
+    .col-side { left: 60% ; width: 40%; }    
+  }
+  
+  @media(min-width:992px)
+  {
+    .col-content { right: 35% ; width: 65%; }
+    .col-side { left: 65% ; width: 35%; }     
+  }
+    
+/* ------------------------- */ 	
+	
+.panel {
+	margin-bottom: 10px ;
+}
+
+.panel-heading {
+    padding: 5px 10px;
+    border-bottom: 1px solid ;
+}    	
+		
+.container-fluid {
+   padding: 0 ;
+   margin: 0 ;
+   width: 100%;
+   max-width: 100%;
+}  
+	
+	  
+.pagination {
+	margin: 0 ;
+}
+	  
+           
+.popover-content  {
+  font-family:sabtha, Tahoma;font-size:12px;line-height:1.2;
+}
+.popover-title  {
+  font-family:sabtha, Tahoma;font-size:12px;line-height:1.2;
+}
+
+/*  footer */
+		
+	.footer {
+	  position: relative ;
+	  background-repeat: no-repeat;  			
+	  padding-top: 25px;
+	  margin-bottom: 15px;
+	  min-height: 100px;
+	  background-color: #EEE;
+	}
+	
+	#foots .logs {
+	  position : absolute;
+	  top: 10px;	  
+	  left : 10px ;
+	  width: 90px ;
+	  height: 90px ;	  	  
+	  background: url('../images/logo-is.gif') top 15px left 0px;
+	  background-repeat: no-repeat;
+	  z-index: 990 ;  			
+	}	
+	
+
+/*   NAV bar */ 
+
+.label,.glyphicon { margin-left:5px; }
+  
+.navbar-nav > li > a {
+   padding-top: 14px;
+   padding-bottom: 4px;
+   color:navy;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > .open > a, 
+.navbar-nav > .open > a:hover, 
+.navbar-nav > .open > a:focus {      
+      background: transparent;
+}
+
+.navbar .nav > li > ul > li > a {                        
+  font-size:  11px;
+}
+.Zand-nav > li > ul > li > a {                        
+  font-size:  11px;
+}
+.Zand-nav .col-lg-2 a {
+    font-size: 11px;
+}
+.dropdown-menu-left {
+    right: auto;
+    left: 12px;
+}
+
+/*   --------------   ------------ */
+	    	    
+	    .txhelp {
+	      font-size: 12px;
+	    }
+	    
+	   .cf60 {
+	     color: #F60;
+	   }
+	    
+
+/*  ---------------------  */
+
+
+.h4blue {	
+     font-size: 18px;
+     font-weight: bold;	    
+     color: blue;
+}
+
+
+
+/* edit agin */
+
+
+  .uliimage {
+    width: 100px;
+    height : 100px ;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    overflow: hidden; 
+  }
+  .ititle {
+    font-size: 13px;
+  }
+
+
+/* inline  */ 
+						
+	.sopt {
+	  padding-bottom: 15px ;
+	}
+	
+	.sopt .tit {
+		margin-right: 5px ;
+	}
+	
+	.ulop , .sopt ul {
+    	list-style-type: none;
+    	padding-right: 15px ;
+	}
+	
+	.ulop li , .sopt li {
+		padding-bottom: 5px ;
+	}
+	
+	.more a {
+		color: black ;
+	}
+		
+
+/*  Show Ad */ 
+		
+	#avshow .dl-horizontal dt{
+	    width: 70px;
+	}
+		
+    @media(min-width:768px)
+    {
+		#avshow .dl-horizontal dd{
+	      margin-right: 80px;
+	    }  
+    }
+    
+  
+ /* payment  */
+ 
+   .font11 {
+     font-size: 11px ;
+   }   
+				
+	
